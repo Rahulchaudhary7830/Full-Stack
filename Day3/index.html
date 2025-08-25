@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Job Application Form</title>
+</head>
+<body>
+  <h1>Job Application</h1>
+  <form action="">
+  <fieldset class="field">
+    <legend>Personal Information</legend>
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname"></br>
+    </br>
+    <label for="secondname">Second Name</label>
+    <input type="text" id="secondname"></br>
+    </br>
+     <label for="email">Email</label>
+    <input type="text" id="email"></br>
+    </br>
+     <label for="pfone">Phone</label>
+    <input type="tel" id="phone"></br>
+  </fieldset>
+  <fieldset class="field">
+    <legend>Job Details</legend>
+    <label for="Positon">Positon Applied</label>
+    <select name="Positon" id="positon">
+      <option value="select">Select</option>
+      <option value="hr">HR</option>
+      <option value="Manager">Manager</option>
+      <option value="Director">Director</option>
+      <option value="Developer">Developer</option>
+    </select>
+    </br>
+    </br>
+    <label for="experience">Year of experience</label>
+    <input type="number" min="1" max="5" step="1">
+  </fieldset>
+  <fieldset class="field">
+    <legend>Availability</legend>
+    <label for="date">Available Start Date</label>
+    <input type="date" name="date" id="date"></br>
+    </br>
+    <label for="">Willing to Relocate</label></br>
+    <input type="radio" name="available" id="yes" value="yes">
+    <label for="yes">Yes</label>
+                <input type="radio" name="available" id="no" value="no">
+                <label for="no">No</label>
+  </fieldset>
+  </br>
+  <button id="submit-button">Submit</button>
+  
+  </form>
+
+</body>
+</html>

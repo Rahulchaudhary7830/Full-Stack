@@ -1,0 +1,21 @@
+body{
+  max-width:400px;
+}
+h1{
+  color: aqua;
+  text-align: center;
+}
+legend{
+  color: red;
+}
+.field{
+  border: 1px solid blue;
+}
+#submit-button{
+  border: none;
+  background-color: red;
+  color: white;
+}
+#submit-button:hover{
+  background-color: blue;
+}
