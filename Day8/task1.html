@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      height:300px;
+      width:300px;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      transition: linear 3s;
+    }
+    .box:hover{
+      transform: scale(0.9);
+    }
+    img{
+      height:200px;
+      width:300px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      transition: linear 2s;
+    }
+    img:hover{
+      transform: scale(1.1);
+    }
+    h2,p{
+      padding: 10px;
+      margin:0;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="nature.jpg" alt="nature">
+    <h2>Beautiful View</h2>
+    <p>This is a simple card with hover transition effects.</p>
+  </div>
+</body>
+</html>

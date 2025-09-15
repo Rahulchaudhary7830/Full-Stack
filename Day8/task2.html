@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+.image {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform:rotate(360deg)
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="rangoli.jpg" alt="rangoli" class="image">
+  </div>
+</body>
+</html>
